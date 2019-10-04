@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C09ED11B234800A3007CC5CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED11A234800A3007CC5CA /* AppDelegate.swift */; };
+		C09ED11D234800A3007CC5CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED11C234800A3007CC5CA /* SceneDelegate.swift */; };
+		C09ED11F234800A3007CC5CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED11E234800A3007CC5CA /* ViewController.swift */; };
+		C09ED122234800A3007CC5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09ED120234800A3007CC5CA /* Main.storyboard */; };
+		C09ED125234800A3007CC5CA /* SmileForLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C09ED123234800A3007CC5CA /* SmileForLife.xcdatamodeld */; };
+		C09ED127234800A3007CC5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09ED126234800A3007CC5CA /* Assets.xcassets */; };
+		C09ED12A234800A3007CC5CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09ED128234800A3007CC5CA /* LaunchScreen.storyboard */; };
+		C09ED135234800A3007CC5CA /* SmileForLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED134234800A3007CC5CA /* SmileForLifeTests.swift */; };
+		C09ED140234800A3007CC5CA /* SmileForLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09ED13F234800A3007CC5CA /* SmileForLifeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C09ED131234800A3007CC5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09ED10F234800A3007CC5CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09ED116234800A3007CC5CA;
+			remoteInfo = SmileForLife;
+		};
+		C09ED13C234800A3007CC5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C09ED10F234800A3007CC5CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C09ED116234800A3007CC5CA;
+			remoteInfo = SmileForLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C09ED117234800A3007CC5CA /* SmileForLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileForLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09ED11A234800A3007CC5CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C09ED11C234800A3007CC5CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C09ED11E234800A3007CC5CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C09ED121234800A3007CC5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C09ED124234800A3007CC5CA /* SmileForLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmileForLife.xcdatamodel; sourceTree = "<group>"; };
+		C09ED126234800A3007CC5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09ED129234800A3007CC5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C09ED12B234800A3007CC5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09ED130234800A3007CC5CA /* SmileForLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileForLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09ED134234800A3007CC5CA /* SmileForLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileForLifeTests.swift; sourceTree = "<group>"; };
+		C09ED136234800A3007CC5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09ED13B234800A3007CC5CA /* SmileForLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileForLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09ED13F234800A3007CC5CA /* SmileForLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileForLifeUITests.swift; sourceTree = "<group>"; };
+		C09ED141234800A3007CC5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09ED114234800A3007CC5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09ED12D234800A3007CC5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09ED138234800A3007CC5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C09ED10E234800A3007CC5CA = {
+			isa = PBXGroup;
+			children = (
+				C09ED119234800A3007CC5CA /* SmileForLife */,
+				C09ED133234800A3007CC5CA /* SmileForLifeTests */,
+				C09ED13E234800A3007CC5CA /* SmileForLifeUITests */,
+				C09ED118234800A3007CC5CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C09ED118234800A3007CC5CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09ED117234800A3007CC5CA /* SmileForLife.app */,
+				C09ED130234800A3007CC5CA /* SmileForLifeTests.xctest */,
+				C09ED13B234800A3007CC5CA /* SmileForLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09ED119234800A3007CC5CA /* SmileForLife */ = {
+			isa = PBXGroup;
+			children = (
+				C09ED11A234800A3007CC5CA /* AppDelegate.swift */,
+				C09ED11C234800A3007CC5CA /* SceneDelegate.swift */,
+				C09ED11E234800A3007CC5CA /* ViewController.swift */,
+				C09ED120234800A3007CC5CA /* Main.storyboard */,
+				C09ED126234800A3007CC5CA /* Assets.xcassets */,
+				C09ED128234800A3007CC5CA /* LaunchScreen.storyboard */,
+				C09ED12B234800A3007CC5CA /* Info.plist */,
+				C09ED123234800A3007CC5CA /* SmileForLife.xcdatamodeld */,
+			);
+			path = SmileForLife;
+			sourceTree = "<group>";
+		};
+		C09ED133234800A3007CC5CA /* SmileForLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C09ED134234800A3007CC5CA /* SmileForLifeTests.swift */,
+				C09ED136234800A3007CC5CA /* Info.plist */,
+			);
+			path = SmileForLifeTests;
+			sourceTree = "<group>";
+		};
+		C09ED13E234800A3007CC5CA /* SmileForLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C09ED13F234800A3007CC5CA /* SmileForLifeUITests.swift */,
+				C09ED141234800A3007CC5CA /* Info.plist */,
+			);
+			path = SmileForLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09ED116234800A3007CC5CA /* SmileForLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09ED144234800A3007CC5CA /* Build configuration list for PBXNativeTarget "SmileForLife" */;
+			buildPhases = (
+				C09ED113234800A3007CC5CA /* Sources */,
+				C09ED114234800A3007CC5CA /* Frameworks */,
+				C09ED115234800A3007CC5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileForLife;
+			productName = SmileForLife;
+			productReference = C09ED117234800A3007CC5CA /* SmileForLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C09ED12F234800A3007CC5CA /* SmileForLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09ED147234800A3007CC5CA /* Build configuration list for PBXNativeTarget "SmileForLifeTests" */;
+			buildPhases = (
+				C09ED12C234800A3007CC5CA /* Sources */,
+				C09ED12D234800A3007CC5CA /* Frameworks */,
+				C09ED12E234800A3007CC5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09ED132234800A3007CC5CA /* PBXTargetDependency */,
+			);
+			name = SmileForLifeTests;
+			productName = SmileForLifeTests;
+			productReference = C09ED130234800A3007CC5CA /* SmileForLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C09ED13A234800A3007CC5CA /* SmileForLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09ED14A234800A3007CC5CA /* Build configuration list for PBXNativeTarget "SmileForLifeUITests" */;
+			buildPhases = (
+				C09ED137234800A3007CC5CA /* Sources */,
+				C09ED138234800A3007CC5CA /* Frameworks */,
+				C09ED139234800A3007CC5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C09ED13D234800A3007CC5CA /* PBXTargetDependency */,
+			);
+			name = SmileForLifeUITests;
+			productName = SmileForLifeUITests;
+			productReference = C09ED13B234800A3007CC5CA /* SmileForLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09ED10F234800A3007CC5CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Lisa Swanson";
+				TargetAttributes = {
+					C09ED116234800A3007CC5CA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C09ED12F234800A3007CC5CA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C09ED116234800A3007CC5CA;
+					};
+					C09ED13A234800A3007CC5CA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C09ED116234800A3007CC5CA;
+					};
+				};
+			};
+			buildConfigurationList = C09ED112234800A3007CC5CA /* Build configuration list for PBXProject "SmileForLife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09ED10E234800A3007CC5CA;
+			productRefGroup = C09ED118234800A3007CC5CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09ED116234800A3007CC5CA /* SmileForLife */,
+				C09ED12F234800A3007CC5CA /* SmileForLifeTests */,
+				C09ED13A234800A3007CC5CA /* SmileForLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09ED115234800A3007CC5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09ED12A234800A3007CC5CA /* LaunchScreen.storyboard in Resources */,
+				C09ED127234800A3007CC5CA /* Assets.xcassets in Resources */,
+				C09ED122234800A3007CC5CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09ED12E234800A3007CC5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09ED139234800A3007CC5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09ED113234800A3007CC5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09ED11F234800A3007CC5CA /* ViewController.swift in Sources */,
+				C09ED11B234800A3007CC5CA /* AppDelegate.swift in Sources */,
+				C09ED125234800A3007CC5CA /* SmileForLife.xcdatamodeld in Sources */,
+				C09ED11D234800A3007CC5CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09ED12C234800A3007CC5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09ED135234800A3007CC5CA /* SmileForLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09ED137234800A3007CC5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09ED140234800A3007CC5CA /* SmileForLifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C09ED132234800A3007CC5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09ED116234800A3007CC5CA /* SmileForLife */;
+			targetProxy = C09ED131234800A3007CC5CA /* PBXContainerItemProxy */;
+		};
+		C09ED13D234800A3007CC5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C09ED116234800A3007CC5CA /* SmileForLife */;
+			targetProxy = C09ED13C234800A3007CC5CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C09ED120234800A3007CC5CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09ED121234800A3007CC5CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C09ED128234800A3007CC5CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09ED129234800A3007CC5CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C09ED142234800A3007CC5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C09ED143234800A3007CC5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09ED145234800A3007CC5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJHVAQ66QW;
+				INFOPLIST_FILE = SmileForLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisadeeswnson.SmileForLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09ED146234800A3007CC5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJHVAQ66QW;
+				INFOPLIST_FILE = SmileForLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisadeeswnson.SmileForLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C09ED148234800A3007CC5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJHVAQ66QW;
+				INFOPLIST_FILE = SmileForLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisadeeswnson.SmileForLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileForLife.app/SmileForLife";
+			};
+			name = Debug;
+		};
+		C09ED149234800A3007CC5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJHVAQ66QW;
+				INFOPLIST_FILE = SmileForLifeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisadeeswnson.SmileForLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileForLife.app/SmileForLife";
+			};
+			name = Release;
+		};
+		C09ED14B234800A3007CC5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJHVAQ66QW;
+				INFOPLIST_FILE = SmileForLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisadeeswnson.SmileForLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmileForLife;
+			};
+			name = Debug;
+		};
+		C09ED14C234800A3007CC5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJHVAQ66QW;
+				INFOPLIST_FILE = SmileForLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisadeeswnson.SmileForLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmileForLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09ED112234800A3007CC5CA /* Build configuration list for PBXProject "SmileForLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09ED142234800A3007CC5CA /* Debug */,
+				C09ED143234800A3007CC5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09ED144234800A3007CC5CA /* Build configuration list for PBXNativeTarget "SmileForLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09ED145234800A3007CC5CA /* Debug */,
+				C09ED146234800A3007CC5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09ED147234800A3007CC5CA /* Build configuration list for PBXNativeTarget "SmileForLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09ED148234800A3007CC5CA /* Debug */,
+				C09ED149234800A3007CC5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09ED14A234800A3007CC5CA /* Build configuration list for PBXNativeTarget "SmileForLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09ED14B234800A3007CC5CA /* Debug */,
+				C09ED14C234800A3007CC5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C09ED123234800A3007CC5CA /* SmileForLife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C09ED124234800A3007CC5CA /* SmileForLife.xcdatamodel */,
+			);
+			currentVersion = C09ED124234800A3007CC5CA /* SmileForLife.xcdatamodel */;
+			path = SmileForLife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C09ED10F234800A3007CC5CA /* Project object */;
+}
