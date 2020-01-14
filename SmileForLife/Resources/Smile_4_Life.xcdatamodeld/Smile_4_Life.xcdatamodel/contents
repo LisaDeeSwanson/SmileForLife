@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CalendarUsers" representedClassName=".CalendarUsers" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="userID" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="hygieneEvents" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HygieneEvents" inverseName="owner" inverseEntity="HygieneEvents"/>
+        <relationship name="notifications" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ScheduledNotifications" inverseName="owner" inverseEntity="ScheduledNotifications"/>
+    </entity>
+    <entity name="HygieneEvents" representedClassName=".HygieneEvents" syncable="YES">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="eventType" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="owner" maxCount="1" deletionRule="Nullify" destinationEntity="CalendarUsers" inverseName="hygieneEvents" inverseEntity="CalendarUsers"/>
+        <relationship name="yearOfEvent" maxCount="1" deletionRule="Nullify" destinationEntity="Years" inverseName="hygieneEventYear" inverseEntity="Years"/>
+    </entity>
+    <entity name="ScheduledNotifications" representedClassName=".Notifications" syncable="YES">
+        <attribute name="eventType" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" attributeType="String"/>
+        <relationship name="owner" maxCount="1" deletionRule="Nullify" destinationEntity="CalendarUsers" inverseName="notifications" inverseEntity="CalendarUsers"/>
+    </entity>
+    <entity name="Years" representedClassName=".Years" syncable="YES">
+        <attribute name="year" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="hygieneEventYear" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HygieneEvents" inverseName="yearOfEvent" inverseEntity="HygieneEvents"/>
+    </entity>
+    <elements>
+        <element name="CalendarUsers" positionX="-169.2734375" positionY="-122.4375" width="128" height="120"/>
+        <element name="HygieneEvents" positionX="18" positionY="63" width="128" height="105"/>
+        <element name="ScheduledNotifications" positionX="-174.765625" positionY="51.83203125" width="128" height="88"/>
+        <element name="Years" positionX="-164.93359375" positionY="170.515625" width="128" height="75"/>
+    </elements>
+</model>
